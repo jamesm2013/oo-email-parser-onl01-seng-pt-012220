@@ -5,8 +5,7 @@ class EmailParser
      @csv_emails = (csv_emails)
   end
   
-   def parse
-      emails.split(/[,?\s]/).select{|email| email != ""}.uniq 
+  
 end  
 
 
