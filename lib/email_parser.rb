@@ -3,7 +3,7 @@ class EmailParser
 
   def initialize(csv_emails)
     
-    
+    csv_emails.split(/\s*,\s*/)
   end
 end  
 
