@@ -7,7 +7,7 @@ class EmailParser
    
  
   def parse
-    self.emails.split(/ |\, /).each {|x| x.strip}.uniq
+    self.csv_emails.split(/ |\, /).each {|x| x.strip}.uniq
   end
   
 end  
