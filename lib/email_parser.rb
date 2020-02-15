@@ -5,8 +5,10 @@ class EmailParser
      @csv_emails = (csv_emails)
   end
    
-   def parse 
-
+ 
+  def parse
+    self.emails.split(/ |\, /).each {|x| x.strip}.uniq
+  end
   
 end  
 
